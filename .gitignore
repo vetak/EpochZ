@@ -214,6 +214,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-Library/
-Library/*
-Temp/
+/Library/
+/Library/*
+/Temp/
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
