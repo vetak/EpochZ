@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{06CF59C3-B350-734D-8844-C58F81806AAB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>J:/Unity_5_4_1_f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>J:/Unity_5_4_1_f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\CraftSystem\CraftSystem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\ExampleScript\RandomLootSystem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\ExampleScript\WorkingStation.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\FirstPerson\FirstPersonController.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\EquipmentSystem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\InputManager.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Inventory\StorageInventory.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\DragItem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\Item.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\ItemAttributeList.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\ItemType.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\PickUpItem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\SlotCover.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Item\SplitItem.cs" />
+     <Compile Include="Assets\DownloadFromTheAssetStore\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
+     <Compile Include="Assets\Scripts\ItemProperties.cs" />
+     <Compile Include="Assets\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Scripts\SelfDestroy.cs" />
+     <Compile Include="Assets\Scripts\ShowText.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\2D\Scripts\Camera2DFollow.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\2D\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\2D\Scripts\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\2D\Scripts\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\2D\Scripts\Restarter.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\HandHeldCam.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Cameras\Scripts\TargetFieldOfView.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\RollerBall\Scripts\BallUserControl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\Explosive.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\FireLight.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\Hose.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\SmokeParticles.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\FOVKick.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\Scripts\LandingGear.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\BrakeLight.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\CarAIControl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\CarAudio.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\CarController.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\CarSelfRighting.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\CarUserControl.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\Mudguard.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\SkidTrail.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\Suspension.cs" />
+     <Compile Include="Assets\StandartPackageUnity3d\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\DownloadedFromTheInternet\Builders\CottageHouse\Details.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\It is forbidden to use in Commerce\Builders\Top-Down Apocalyptic World Volume 1 - Town\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\It is forbidden to use in Commerce\Builders\Top-Down Apocalyptic World Volume 1 - Town\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\StandartPackageUnity3d\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\It is forbidden to use in Commerce\Builders\Top-Down Apocalyptic World Volume 1 - Town\readme.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\StandartPackageUnity3d\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\StandartPackageUnity3d\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\StandartPackageUnity3d\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\StandartPackageUnity3d\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\DownloadFromTheAssetStore\InventoryMaster\readme.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\StandartPackageUnity3d\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\StandartPackageUnity3d\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\StandartPackageUnity3d\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>J:/Unity_5_4_1_f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>J:/Unity_5_4_1_f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
