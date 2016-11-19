@@ -119,7 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DownloadFromTheAssetStore\InventoryMaster\readme.txt" />
-    <None Include="Assets\DownloadedFromTheInternet\Builders\CottageHouse\Details.txt" />
+    <None Include="Assets\DownloadFromTheInternet\Builders\CottageHouse\Details.txt" />
     <None Include="Assets\It is forbidden to use in Commerce\Builders\Top-Down Apocalyptic World Volume 1 - Town\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
     <None Include="Assets\It is forbidden to use in Commerce\Builders\Top-Down Apocalyptic World Volume 1 - Town\Standard Assets\Skyboxes\_skybox info.txt" />
     <None Include="Assets\It is forbidden to use in Commerce\Builders\Top-Down Apocalyptic World Volume 1 - Town\readme.txt" />
